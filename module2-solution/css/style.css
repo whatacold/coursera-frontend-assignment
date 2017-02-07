@@ -9,13 +9,14 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 1.75em;
 }
 
 section {
     position: relative;
     padding: 10px;
     margin: 10px;
-    border: 2px black solid;
+    border: 1px black solid;
     background-color: #999;
 }
 
@@ -24,15 +25,18 @@ h2 {
     top: 0;
     right: 0;
     text-transform: capitalize;
-    border: 1px black solid;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
     margin: 0;
+    padding: 3px;
     width: 130px;
-    height: 30px;
+    height: 25px;
     text-align: center;
+    font-size: 1.25em;
 }
 
 h2 + p {
-    margin-top: 30px;
+    margin-top: 28px;
 }
 
 #chicken {
