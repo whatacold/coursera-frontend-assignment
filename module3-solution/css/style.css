@@ -1,0 +1,33 @@
+#collapable-navbar-comp {
+    background-color: #fff;
+}
+
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-align: center;
+    color: #000;
+}
+
+.navbar-default .navbar-nav>li:first-child>a,
+.navbar-default .navbar-nav>li:first-child+li>a {
+    border-bottom: #e7e7e7 1px solid;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.container > .row {
+    background-color: #f8f8f8;
+    height: 1000px;
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse.collapse {
+        display: none!important; /* override default behavior */
+    }
+}
